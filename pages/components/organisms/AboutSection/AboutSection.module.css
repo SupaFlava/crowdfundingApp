@@ -1,0 +1,32 @@
+.aboutContainer {
+  width: 330px;
+  margin-top: -80px;
+  padding: 40px 25px;
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  gap: 25px;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 8px;
+  margin: 0;
+}
+.CustomHeading {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+@media (min-width: 850px) {
+  .aboutContainer {
+    width: 400px;
+    gap: 30px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .aboutContainer {
+    width: 730px;
+    gap: 30px;
+  }
+}

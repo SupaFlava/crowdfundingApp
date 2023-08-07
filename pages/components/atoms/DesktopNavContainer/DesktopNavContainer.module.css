@@ -1,0 +1,12 @@
+.desktopContainer {
+  display: none;
+}
+
+@media (min-width: 1440px) {
+  .desktopContainer {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    gap: 35px;
+  }
+}

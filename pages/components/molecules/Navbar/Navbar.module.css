@@ -1,0 +1,12 @@
+.navbar {
+  display: flex;
+  height: 300px;
+  background-image: url(../../../../public/assets/image-hero-mobile.jpg);
+  background-size: cover;
+  filter: brightness(90%);
+}
+@media (min-width: 1440px) {
+  .navbar {
+    background-image: url(../../../../public//assets/image-hero-desktop.jpg);
+  }
+}

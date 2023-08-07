@@ -1,0 +1,41 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Project{
+  project_id  Int @id @default(autoincrement())
+  project_name String
+  project_description String
+  editions Edition[]
+  }
+
+ model Edition{
+  edition_id Int @id @default(autoincrement())
+  project_id Int
+  edition_name String
+  pledge_price Float
+  unit_left Int
+  edition_description String
+  pleadges Pledge[]
+
+  project Project @relation(fields:[project_id], references: [project_id] )
+  }
+
+model Pledge {
+  pledge_id Int @id @default(autoincrement())
+  edition_id Int
+  pledge_amount Float
+  backer_name String
+  backer_email String
+  backer_date DateTime
+  edition Edition @relation(fields: [edition_id], references: [edition_id])
+}
+  

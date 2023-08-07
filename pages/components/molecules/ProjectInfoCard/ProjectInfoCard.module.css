@@ -1,0 +1,36 @@
+.infoContainer {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+}
+.cardDesktop {
+  display: flex;
+  width: 100%;
+
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.line {
+  width: 80px;
+  height: 1px;
+  background: #979797;
+}
+
+@media (min-width: 1440px) {
+  .cardDesktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .line {
+    height: 63px;
+    width: 1px;
+  }
+}

@@ -1,0 +1,25 @@
+.btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 33px;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+}
+
+.primary {
+  background-color: #147a73;
+  padding: 19px 42px;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.secondary {
+  background-color: #3cb3ab;
+  color: white;
+  width: 157px;
+  height: 48px;
+  border-radius: 33.5px;
+}

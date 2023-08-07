@@ -1,0 +1,17 @@
+.nav {
+  display: flex;
+  padding: 35px 25px;
+  justify-content: space-between;
+  width: 100%;
+}
+@media (min-width: 600px) {
+  .nav {
+    padding: 35px 50px;
+  }
+}
+
+@media (min-width: 850px) {
+  .nav {
+    padding: 35px 100px;
+  }
+}

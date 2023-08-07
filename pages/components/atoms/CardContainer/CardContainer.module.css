@@ -1,0 +1,30 @@
+.cardContainer {
+  width: 330px;
+  padding: 25px 25px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 8px;
+
+  z-index: 1;
+}
+
+.cardContainer:first-child {
+  margin-top: -50px;
+}
+
+@media (min-width: 850px) {
+  .cardContainer {
+    width: 400px;
+    gap: 30px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .cardContainer {
+    width: 730px;
+    gap: 30px;
+  }
+}

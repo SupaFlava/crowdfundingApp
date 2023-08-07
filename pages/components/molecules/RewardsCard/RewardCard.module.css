@@ -1,0 +1,29 @@
+.rewardCard {
+  display: flex;
+  padding: 24px;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 25px;
+}
+.rewardTitles {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.rewardInfo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+@media (min-width: 1440px) {
+  .rewardTitles {
+    flex-direction: row;
+    gap: 320px;
+  }
+  .rewardCta {
+    display: flex;
+    gap: 320px;
+  }
+}

@@ -1,0 +1,47 @@
+/* .dialogContainer {
+  width: 450px;
+  padding: 40px 25px;
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  gap: 25px;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 8px;
+  border: 1px sold blue;
+  position: relative;
+} */
+/* .dialog {
+  padding: 0.5rem;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  background: wheat;
+  z-index: 10;
+} */
+
+.modalHeader {
+  display: flex;
+  padding: 25px;
+  justify-content: space-between;
+}
+.modalOpen {
+  background-color: yellow;
+}
+.container {
+  margin: 50px;
+  background-color: black;
+}
+.radioContainer {
+  margin: 40px 0;
+  display: flex;
+  justify-content: space-around;
+  gap: px;
+}
+.paraContainer {
+  display: flex;
+  padding: 25px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+}
